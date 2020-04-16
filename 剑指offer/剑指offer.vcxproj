@@ -145,11 +145,15 @@
     <ClInclude Include="001-findIn2DArray.hpp" />
     <ClInclude Include="004-reconstructBTree.hpp" />
     <ClInclude Include="005-queueUsingDoublyStack.hpp" />
+    <ClInclude Include="006-rotatedArray.hpp" />
     <ClInclude Include="050-duplicateDigitInArray.hpp" />
     <ClInclude Include="055-ringEntryLinkedList.hpp" />
     <ClInclude Include="002-replaceSpace.hpp" />
     <ClInclude Include="057-nextNodeInOrder.hpp" />
     <ClInclude Include="007-nthFibonacchi.hpp" />
+    <ClInclude Include="065-findPathInMatrix.hpp" />
+    <ClInclude Include="067-cutRope.hpp" />
+    <ClInclude Include="100-priorityQueue.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

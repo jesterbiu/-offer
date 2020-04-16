@@ -47,5 +47,17 @@
     <ClInclude Include="007-nthFibonacchi.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="006-rotatedArray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="100-priorityQueue.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="065-findPathInMatrix.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="067-cutRope.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
