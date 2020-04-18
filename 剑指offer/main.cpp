@@ -1,20 +1,21 @@
 #include <vector>
 #include <iostream>
 #include <stack>
+#include <string>
+
 //#include "006-rotatedArray.hpp"
 //#include "100-priorityQueue.hpp"
-#include "065-findPathInMatrix.hpp"
+//#include "065-findPathInMatrix.hpp"
+//#include "049-atoi.hpp"
+#include "012-pow.hpp"
+
 int main()
 {		
-	int n = 1;
-	Solution haspath;
-	const char* matrix = "abcesfcsadee";//"ABCESFCSADEE"; ;
-	const char* str = "bcced";//"ABCB";
-	int rows = 3, cols = 4;
-	bool has1 = haspath.hasPath(matrix, rows, cols, str);
-	const char ch[] = "A";
-	rows = cols = 1;
-	bool has0 = haspath.hasPath(ch, rows, cols, ch);
 	
+	std::vector<double> r = testpow();
+	for (double d : r)
+	{
+		std::cout << d << std::endl;
+	}
 	return 0;
 }

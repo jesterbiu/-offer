@@ -59,5 +59,14 @@
     <ClInclude Include="067-cutRope.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="011-numberOfOnes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="049-atoi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="012-pow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
