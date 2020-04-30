@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="003-reversedLinkedList.hpp" />
+    <ClCompile Include="ListNode_.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,15 +149,25 @@
     <ClInclude Include="006-rotatedArray.hpp" />
     <ClInclude Include="011-numberOfOnes.hpp" />
     <ClInclude Include="012-pow.hpp" />
+    <ClInclude Include="014-FindKthToTail.hpp" />
     <ClInclude Include="049-atoi.hpp" />
     <ClInclude Include="050-duplicateDigitInArray.hpp" />
+    <ClInclude Include="052-match.hpp" />
+    <ClInclude Include="053-isNumeric.hpp" />
     <ClInclude Include="055-ringEntryLinkedList.hpp" />
     <ClInclude Include="002-replaceSpace.hpp" />
+    <ClInclude Include="056-deleteDuplicateListNode.hpp" />
     <ClInclude Include="057-nextNodeInOrder.hpp" />
     <ClInclude Include="007-nthFibonacchi.hpp" />
     <ClInclude Include="065-findPathInMatrix.hpp" />
     <ClInclude Include="067-cutRope.hpp" />
     <ClInclude Include="100-priorityQueue.hpp" />
+    <ClInclude Include="deleteLinkedListNode.hpp" />
+    <ClInclude Include="Futu-BinToHexStr.hpp" />
+    <ClInclude Include="ListNode.hpp" />
+    <ClInclude Include="list.hpp" />
+    <ClInclude Include="printMaxOfNDigits.hpp" />
+    <ClInclude Include="013-reoderArray.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

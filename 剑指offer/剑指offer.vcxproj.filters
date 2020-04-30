@@ -21,6 +21,9 @@
     <ClCompile Include="003-reversedLinkedList.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="ListNode_.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="050-duplicateDigitInArray.hpp">
@@ -66,6 +69,36 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="012-pow.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Futu-BinToHexStr.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printMaxOfNDigits.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="deleteLinkedListNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="056-deleteDuplicateListNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="052-match.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="053-isNumeric.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="013-reoderArray.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="014-FindKthToTail.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
