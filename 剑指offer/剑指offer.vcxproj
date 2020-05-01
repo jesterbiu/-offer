@@ -150,6 +150,7 @@
     <ClInclude Include="011-numberOfOnes.hpp" />
     <ClInclude Include="012-pow.hpp" />
     <ClInclude Include="014-FindKthToTail.hpp" />
+    <ClInclude Include="016-MergeSortedLinkedList.hpp" />
     <ClInclude Include="049-atoi.hpp" />
     <ClInclude Include="050-duplicateDigitInArray.hpp" />
     <ClInclude Include="052-match.hpp" />

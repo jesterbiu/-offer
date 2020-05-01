@@ -25,6 +25,7 @@ ListNode* EntryNodeOfLoop(ListNode* pHead)
 	
     // there is no loop if the list ends
     // return null
+    // 一定要把这一步放在上一循环外，否则可能因为pFast为nullptr而进行下面的loopCounts
     if (pFast == nullptr)
     {
         return nullptr;

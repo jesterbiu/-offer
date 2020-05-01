@@ -14,15 +14,10 @@
 //#include "052-match.hpp"
 //#include "053-isNumeric.hpp"
 //#include "013-reoderArray.hpp"
-#include "055-ringEntryLinkedList.hpp"
+//#include "055-ringEntryLinkedList.hpp"
+//#include "016-MergeSortedLinkedList.hpp"
 int main()
 {			
-    Test1();
-    Test2();
-    Test3();
-    Test4();
-    Test5();
-    Test6();
-    Test7();
+  
 	return 0;
 }

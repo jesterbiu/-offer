@@ -101,5 +101,8 @@
     <ClInclude Include="list.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="016-MergeSortedLinkedList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
