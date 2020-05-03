@@ -16,8 +16,11 @@
 //#include "013-reoderArray.hpp"
 //#include "055-ringEntryLinkedList.hpp"
 //#include "016-MergeSortedLinkedList.hpp"
+//#include "015-reverseLinkedList.hpp"
+//#include "017-HasTree.hpp"
+#include "052-match.hpp"
 int main()
 {			
-  
+	test_match();
 	return 0;
 }

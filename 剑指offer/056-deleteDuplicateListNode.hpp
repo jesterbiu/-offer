@@ -4,7 +4,7 @@
 class Solution {
 public:
     // delete duplication string of nodes in [firstDup, next)
-    // assign nextNonDup to lastNonDup->next
+    // after deletion: lastNonDup -> nextNonDup
     void deleteDupString(ListNode* lastNonDup, ListNode* firstDup, ListNode* nextNonDup)
     {
         // validate input
@@ -45,7 +45,8 @@ public:
             *pLastNotDup = nullptr,     // pointer to the last known non-duplication node
             *pFirstDup = pHead,         // pointer to traverse 
             *pNextNonDup = nullptr;           // pointer to the next non-duplication node
-
+        //
+        // ...- pLastNotDup - pFirstDup - (Duplicate list) - pNextNonDup - ...
         // traverse the list
         while (pFirstDup != nullptr && pFirstDup->next != nullptr)
         {

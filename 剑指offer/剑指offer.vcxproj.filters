@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{e6d04117-5e62-439b-979b-44a6548ced2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -22,7 +25,10 @@
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="ListNode_.cpp">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>Header Files\Util</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -83,9 +89,6 @@
     <ClInclude Include="056-deleteDuplicateListNode.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ListNode.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="052-match.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -98,11 +101,23 @@
     <ClInclude Include="014-FindKthToTail.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="list.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="016-MergeSortedLinkedList.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="015-reverseLinkedList.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="017-HasTree.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="list.hpp">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.hpp">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.hpp">
+      <Filter>Header Files\Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

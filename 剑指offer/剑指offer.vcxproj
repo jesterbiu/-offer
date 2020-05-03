@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="003-reversedLinkedList.hpp" />
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="ListNode_.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -150,7 +151,9 @@
     <ClInclude Include="011-numberOfOnes.hpp" />
     <ClInclude Include="012-pow.hpp" />
     <ClInclude Include="014-FindKthToTail.hpp" />
+    <ClInclude Include="015-reverseLinkedList.hpp" />
     <ClInclude Include="016-MergeSortedLinkedList.hpp" />
+    <ClInclude Include="017-HasTree.hpp" />
     <ClInclude Include="049-atoi.hpp" />
     <ClInclude Include="050-duplicateDigitInArray.hpp" />
     <ClInclude Include="052-match.hpp" />
@@ -163,6 +166,7 @@
     <ClInclude Include="065-findPathInMatrix.hpp" />
     <ClInclude Include="067-cutRope.hpp" />
     <ClInclude Include="100-priorityQueue.hpp" />
+    <ClInclude Include="BinaryTree.hpp" />
     <ClInclude Include="deleteLinkedListNode.hpp" />
     <ClInclude Include="Futu-BinToHexStr.hpp" />
     <ClInclude Include="ListNode.hpp" />
